@@ -1,0 +1,30 @@
+{
+  "name": "billowing-bush-a789",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "billowing-bush-a789-d1",
+      "database_id": "83ce8b9f-8588-4812-abed-81daa58b0cc7"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "billowing-bush-a789-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
